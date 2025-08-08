@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/verdana" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="team-card">
+          <h3 class="heading">HOME</h3>
+          <div class="scorecard">
+            <h2 id="scorecard1">0</h2>
+          </div>
+          <div class="button-container">
+            <button class="buttons" onclick="increaseHome(1)">+1</button>
+            <button class="buttons" onclick="increaseHome(2)">+2</button>
+            <button class="buttons" onclick="increaseHome(3)">+3</button>
+          </div>
+        </div>
+        <div class="team-card">
+          <h3 class="heading">GUEST</h3>
+          <div class="scorecard">
+            <h2 id="scorecard2">0</h2>
+          </div>
+          <div class="button-container">
+            <button class="buttons" onclick="increaseGuest(1)">+1</button>
+            <button class="buttons" onclick="increaseGuest(2)">+2</button>
+            <button class="buttons" onclick="increaseGuest(3)">+3</button>
+          </div>
+        </div>
+      </div>
+      <div class="reset-winner">
+        <button id="reset" class="buttons" onclick="resetBtn()">RESET</button>
+        <h1 id="winner"></h1>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.reset-winner {
+    margin: 0 auto;
+    max-width: 600px;
+    gap: 20px;
+    background-color: #1B244A;
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    height: 320px;
+    margin: auto;
+    padding: 20px;
+    background-color: #1B244A;
+}
+
+.heading {
+    color: #EEEEEE;
+    font-family: Verdana, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.scorecard{
+    margin-bottom: 20px;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px;
+    background-color: #080001;
+}
+
+.button-container {
+    width: 155px;
+    height: 45px;
+    opacity: 1;
+    top: 271px;
+    left: 337px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.buttons {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27.81px;
+    text-align: center;
+    color: #9AABD8;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #1B244A;
+}
+
+#scorecard1{
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    text-align: center;
+    color: #F94F6D;
+    padding-top: 5px;
+}
+
+#scorecard2{
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    text-align: center;
+    color: #F94F6D;
+    padding-top: 5px;
+}
