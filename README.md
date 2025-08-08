@@ -1,21 +1,23 @@
-# Scrimba Full Stack Path's Solo Project
+# 🏀 Basketball Scorecard
 
-# Getting Started
-Install the dependencies and run the project
-```
+A solo project built as part of the **Scrimba Full Stack Developer Path**.  
+This app simulates a live basketball scorecard where users can add points and track game progress in real time.
+
+---
+
+## 🎮 Features
+
+- 3 scoring buttons (+1, +2, +3) for both **Home** and **Guest** teams
+- Automatic **win detection** when a team reaches 15 points
+- Clear **winner declaration**
+- **Reset button** to start a new game
+
+---
+
+## 💻 Getting Started
+
+Install the dependencies and start the development server:
+
+```bash
 npm install
 npm start
-```
-
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
-
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
-
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
-
-Happy Coding!
