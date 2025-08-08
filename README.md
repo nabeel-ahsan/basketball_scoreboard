@@ -1,3 +1,5 @@
+# Scrimba Full Stack Path's Solo Project
+
 # Getting Started
 Install the dependencies and run the project
 ```
