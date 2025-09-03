@@ -1,7 +1,7 @@
 # 🏀 Basketball Scorecard
 
 A solo project built as part of the **Scrimba Full Stack Developer Path**.  
-This app simulates a live basketball scorecard where users can add points and track game progress in real time.
+This app simulates a live basketball scorecard where users can add points and track game progress in real time and declares the winner.
 
 ---
 
